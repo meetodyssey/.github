@@ -2,34 +2,32 @@
 
 > Meet yourself along the way.
 
-Odyssey builds local-first personal memory tools for conversations that should not have to start from zero. Your memories should remain readable, portable, and yours.
+Many AI conversations lose their thread. The context you built and the moments that mattered may not be available when you return, or may be held in memory systems you cannot inspect.
+
+Odyssey is building a different kind of companion. One that remembers - not in a black box on someone else's server, but in plain files you own, can read, can correct, and can take with you. A local-first memory system where conversations accumulate into something lasting: a digital self that grows with you over time.
+
+We call this *continuity*: inspectable, portable memory grounded in your own words.
 
 ## What We Are Building
 
-Our first project is **Odyssey for Obsidian**, an early-stage plugin that keeps conversation records and derived memories as Markdown files in your own vault. It is designed to help recall relevant context across conversations while keeping the underlying record available to inspect, correct, export, or delete.
+**[Odyssey for Obsidian](https://github.com/meetodyssey/obsidian-odyssey)** - our first project. An Obsidian plugin that keeps conversation records and source-backed memories as Markdown files in your vault, supports cross-session recall, and preserves corrections without silently rewriting earlier records. Open source under GNU AGPL-3.0.
 
-Current areas of focus include:
-
-- cross-session recall grounded in locally stored memories
-- append-only corrections when an earlier understanding was wrong
-- ephemeral conversations that are not written into long-term memory
-- support for local models and user-configured model providers
+This is where we start, not where we stop.
 
 ## Our Principles
 
-**Local first.** Your memory files live with you, rather than being held behind a hosted account.
+**Local first.** Your memory files live with you, not behind a hosted account. No sign-up, no cloud lock-in.
 
-**Readable and portable.** Important records use plain files you can inspect and move.
+**Readable and portable.** Conversation and memory records use plain Markdown. You can open them, search them, move them, or delete them - no proprietary format stands in the way.
 
-**Correctable.** AI can misunderstand. A memory system should preserve corrections and make its limits clear.
+**Correctable.** AI gets things wrong. A memory system that pretends otherwise is worse than no memory at all. Odyssey preserves corrections alongside the original, so the record improves instead of silently drifting.
 
-**Private by design.** Privacy is part of the product boundary, from local storage to careful handling of model providers.
+**Private by design.** Privacy is a product boundary, not a setting. Odyssey for Obsidian stores readable memory records locally and does not add telemetry.
 
 ## Status
 
-Odyssey is in early development. Public repositories, releases, installation guidance, and privacy-safe ways to share feedback will be published here as they become ready.
+Odyssey is in early development. Odyssey for Obsidian is being prepared for its first public release; installation and feedback links will be available from its repository when it is published.
 
-## A Note On AI
+## A Note on AI
 
 Odyssey uses AI-generated responses, which may be wrong, incomplete, or based on misunderstood context. It is not a substitute for medical, legal, financial, mental-health, safety, or other professional advice.
-
