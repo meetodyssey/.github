@@ -1,0 +1,129 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Odyssey public overview</title>
+  <desc id="desc">A public overview of Odyssey showing open-source Obsidian projects, mobile app, home node, and the user's digital self.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFF"/>
+      <stop offset="1" stop-color="#EEF3FF"/>
+    </linearGradient>
+    <linearGradient id="core" x1="420" y1="205" x2="780" y2="515" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEF2FF"/>
+      <stop offset="1" stop-color="#E0F2FE"/>
+    </linearGradient>
+    <linearGradient id="open" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#DBEAFE"/>
+      <stop offset="1" stop-color="#F0FDFA"/>
+    </linearGradient>
+    <linearGradient id="product" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F5F3FF"/>
+      <stop offset="1" stop-color="#ECFEFF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#1E3A8A" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2 2L10 6L2 10" stroke="#64748B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="720" rx="36" fill="url(#bg)"/>
+
+  <text x="600" y="70" text-anchor="middle" fill="#0F172A" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="34" font-weight="760">
+    Odyssey
+  </text>
+  <text x="600" y="104" text-anchor="middle" fill="#475569" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="17">
+    A local-first ecosystem for continuity, knowledge, and the digital self
+  </text>
+
+  <path d="M380 277C435 246 493 239 552 256" stroke="#CBD5E1" stroke-width="2.2" stroke-dasharray="7 8" marker-end="url(#arrow)"/>
+  <path d="M820 277C765 246 707 239 648 256" stroke="#CBD5E1" stroke-width="2.2" stroke-dasharray="7 8" marker-end="url(#arrow)"/>
+  <path d="M390 475C448 506 509 509 558 486" stroke="#CBD5E1" stroke-width="2.2" stroke-dasharray="7 8" marker-end="url(#arrow)"/>
+  <path d="M810 475C752 506 691 509 642 486" stroke="#CBD5E1" stroke-width="2.2" stroke-dasharray="7 8" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="417" y="214" width="366" height="292" rx="32" fill="url(#core)" stroke="#93C5FD" stroke-width="1.5"/>
+    <circle cx="600" cy="300" r="54" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="2"/>
+    <path d="M576 306C576 293.85 585.85 284 598 284H622V318H598C585.85 318 576 308.15 576 296" stroke="#2563EB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M622 284L635 297L622 318" stroke="#2563EB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="600" y="382" text-anchor="middle" fill="#0F172A" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="26" font-weight="760">
+      Digital Self
+    </text>
+    <text x="600" y="414" text-anchor="middle" fill="#334155" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15">
+      memory · knowledge · values · behavior patterns
+    </text>
+    <text x="600" y="445" text-anchor="middle" fill="#64748B" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">
+      user-owned records, local indexes, traceable sources
+    </text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="78" y="176" width="304" height="176" rx="26" fill="url(#open)" stroke="#93C5FD" stroke-width="1.3"/>
+    <rect x="102" y="202" width="112" height="28" rx="14" fill="#DBEAFE"/>
+    <text x="158" y="221" text-anchor="middle" fill="#1D4ED8" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="760">
+      OPEN SOURCE
+    </text>
+    <text x="102" y="266" fill="#0F172A" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="760">
+      obsidian-odyssey
+    </text>
+    <text x="102" y="301" fill="#475569" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15">
+      Local-first AI memory companion
+    </text>
+    <text x="102" y="326" fill="#64748B" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">
+      Obsidian vault · Markdown · corrections
+    </text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="818" y="176" width="304" height="176" rx="26" fill="url(#open)" stroke="#99F6E4" stroke-width="1.3"/>
+    <rect x="842" y="202" width="112" height="28" rx="14" fill="#CCFBF1"/>
+    <text x="898" y="221" text-anchor="middle" fill="#0F766E" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="760">
+      OPEN SOURCE
+    </text>
+    <text x="842" y="266" fill="#0F172A" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="22" font-weight="760">
+      obsidian-ripple
+    </text>
+    <text x="842" y="301" fill="#475569" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15">
+      <tspan x="842" dy="0">Knowledge-base interaction</tspan>
+      <tspan x="842" dy="21">experiments for Obsidian</tspan>
+    </text>
+    <text x="842" y="347" fill="#64748B" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">
+      Graphs · retrieval UX · local knowledge
+    </text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="78" y="396" width="304" height="176" rx="26" fill="url(#product)" stroke="#C4B5FD" stroke-width="1.3"/>
+    <rect x="102" y="422" width="128" height="28" rx="14" fill="#EDE9FE"/>
+    <text x="166" y="441" text-anchor="middle" fill="#6D28D9" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="760">
+      ODYSSEY APP
+    </text>
+    <text x="102" y="486" fill="#0F172A" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="760">
+      Mobile companion
+    </text>
+    <text x="102" y="521" fill="#475569" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15">
+      Chat, review, capture, and sync
+    </text>
+    <text x="102" y="546" fill="#64748B" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">
+      Bring-your-own model or local endpoint
+    </text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="818" y="396" width="304" height="176" rx="26" fill="url(#product)" stroke="#BAE6FD" stroke-width="1.3"/>
+    <rect x="842" y="422" width="150" height="28" rx="14" fill="#E0F2FE"/>
+    <text x="917" y="441" text-anchor="middle" fill="#0369A1" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="760">
+      LOCAL RUNTIME
+    </text>
+    <text x="842" y="480" fill="#0F172A" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="760">
+      Odyssey Home Node
+    </text>
+    <text x="842" y="512" fill="#475569" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15">
+      <tspan x="842" dy="0">Home-hosted memory</tspan>
+      <tspan x="842" dy="21">and model services</tspan>
+    </text>
+    <text x="842" y="557" fill="#64748B" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">
+      Local compute · private sync · user control
+    </text>
+  </g>
+</svg>

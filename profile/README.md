@@ -2,40 +2,104 @@
 
 > Meet yourself along the way.
 
-In Homer's epic, Odysseus spent ten years finding his way home. When he finally arrived, no one recognized him. It was Penelope who devised the ultimate test: she mentioned the bed — a secret only the two of them shared. Identity, in that moment, was not proven by appearance or strength, but by a memory that could not be faked.
+AI can answer almost anything, yet many conversations still begin as if you had
+never met before.
 
-Odyssey begins from the same intuition. Not how to make AI remember more, but something older and more human: how does a person stay continuous — across conversations that forget, devices that change, and services that shut down?
+You explain your background again. You reconstruct a decision from fragments.
+Your notes, memories, preferences, and hard-won patterns of thinking are split
+across apps that rarely understand one another. You trust a memory feature that
+you cannot inspect, correct, or take with you. When the account disappears, the
+thread disappears with it.
 
-## The Problem
+Odyssey is a broader effort to build a different kind of relationship with AI:
+one grounded in continuity, user-owned records, and a digital self that remains
+inspectable instead of becoming a hidden profile. We open-source selected
+components where public review, local ownership, and community use matter most.
 
-Every meaningful AI conversation builds context: your background, your priorities, the particular way you frame a problem. When that conversation ends, the context disappears. The next session starts from zero.
+![Odyssey public overview](assets/odyssey-overview.svg)
 
-Some systems now offer memory, but most store what they learn in opaque formats you cannot read, correct, or take with you. When a service shuts down, users lose not just chat logs, but an irreplaceable thread of self-understanding built over months.
+## Why Continuity Matters
 
-The issue is not storage. It is continuity. Storage puts things away for later retrieval. Continuity means the past can re-enter the present and participate in it — the way a familiar scent can suddenly make an old feeling vivid again, the way Proust's madeleine unlocked an entire childhood. Memory worth preserving is not filed away. It is re-encountered.
+In Homer's epic, Odysseus spent ten years finding his way home. When he finally
+arrived, appearance was not enough to establish who he was. Penelope tested him
+with a shared memory: the secret of their bed.
+
+Identity, in that moment, was not proven by a profile. It was proven by
+continuity.
+
+That distinction matters for personal AI. Storage is useful, but storage alone
+is not continuity. A folder can preserve facts. A profile can flatten you into
+traits. A digital self should be richer and more accountable: memory, knowledge,
+values, and behavior patterns that remain traceable to their sources and can
+change responsibly when understanding changes.
 
 ## What We Are Building
 
-**[Odyssey for Obsidian](https://github.com/meetodyssey/obsidian-odyssey)** — a local-first memory companion that keeps conversation records, source-backed memories, and corrections as plain Markdown in your Obsidian vault. Open source under GNU AGPL-3.0.
+The public overview above shows the shape of the Odyssey ecosystem: a
+user-owned digital self at the center, with different surfaces for capturing,
+organizing, recalling, and running personal AI locally.
 
-A companion that only agrees with you is not a companion — it is a mirror that flatters. Odyssey aims to be the kind that shows what is actually there: what you said, how your understanding evolved, where a correction was needed. When AI gets something wrong — or when you remember differently later — the correction is recorded alongside the original. The record improves instead of silently drifting.
+Our public open-source components currently include:
 
-People change their minds. They re-evaluate old decisions. They discover that something they believed for years was incomplete. A memory system that allows rewriting history produces a version of you that was never wrong and never confused — which is to say, a version that never existed. Odyssey keeps the original and appends the correction, because the path from who you were to who you are is part of who you are.
+- **[Odyssey for Obsidian](https://github.com/meetodyssey/obsidian-odyssey)**:
+  a local-first AI memory companion that stores conversations, source-backed
+  memories, and corrections as readable Markdown in your own vault.
+- **[Obsidian Ripple](https://github.com/meetodyssey/obsidian-ripple)**:
+  public experiments around knowledge-base interaction, graph-based recall, and
+  local note-centered AI workflows.
+
+Together, these projects serve a simple but demanding use case:
+
+> Talk with AI over time without surrendering ownership of the history that
+> makes those conversations meaningful.
+
+These open-source projects are part of a broader Odyssey ecosystem that also
+includes the Odyssey mobile app and Odyssey Home Node:
+
+- **Odyssey mobile app**: a companion interface for chat, review, capture, and
+  sync across everyday contexts.
+- **Odyssey Home Node**: a local runtime for home-hosted memory and model
+  services, keeping private compute close to the user.
+
+The broader work explores how personal AI systems can preserve continuity while
+remaining inspectable, portable, correctable, and private by design.
 
 ## Our Principles
 
-**Local first.** Your memory lives with you, not behind a hosted account. No sign-up, no cloud lock-in. Even if Odyssey disappeared tomorrow, your files would still be yours — readable Markdown, not a proprietary format.
+**Local first.** Your memory, knowledge, and personal records should live with
+you, not behind a hosted account. If Odyssey disappeared tomorrow, your files
+should still be readable.
 
-**Correctable.** AI gets things wrong. People get things wrong. A memory system that pretends otherwise is worse than no memory at all. Odyssey preserves corrections alongside the original, so understanding evolves visibly rather than being silently replaced.
+**Inspectable.** You should be able to see what the system remembered, what it
+learned from your knowledge base, and where that understanding came from.
 
-**Sovereign.** A system that claims to preserve your continuity but holds your memory hostage behind a subscription has betrayed its own premise. Cutting someone off from their own memory is not a billing event — it is a kind of erasure.
+**Correctable.** AI gets things wrong. People also change their minds, remember
+differently, and revise earlier beliefs. Odyssey keeps corrections alongside
+the original record instead of silently rewriting history.
 
-**Private by design.** Privacy is a product boundary, not a setting.
+**Sovereign.** A system that preserves a digital self should not hold that
+record hostage. Portability is part of the product, not an export checkbox added
+later.
+
+**Private by design.** Privacy is a boundary. Local models should remain a
+first-class option, and cloud inference should always be an explicit user
+choice.
+
+## Start Here
+
+- Explore [Odyssey for Obsidian](https://github.com/meetodyssey/obsidian-odyssey)
+- Explore [Obsidian Ripple](https://github.com/meetodyssey/obsidian-ripple)
+- Read the [Odyssey for Obsidian installation guide](https://github.com/meetodyssey/obsidian-odyssey/blob/main/docs/installation.md)
+- Open an issue to report a bug, request a feature, or discuss memory quality
 
 ## Status
 
-Odyssey is in early development. Odyssey for Obsidian is being prepared for its first public release; installation and feedback links will be available from [its repository](https://github.com/meetodyssey/obsidian-odyssey) when it is published.
+Odyssey is in early development. The Obsidian plugin is being prepared for its
+first public release. Expect active iteration around model setup, retrieval
+quality, correction workflows, and resilient conversations.
 
 ## A Note on AI
 
-Odyssey uses AI-generated responses, which may be wrong, incomplete, or based on misunderstood context. It is not a substitute for medical, legal, financial, mental-health, safety, or other professional advice.
+Odyssey uses AI-generated responses, which may be wrong, incomplete, or based
+on misunderstood context. It is not a substitute for medical, legal, financial,
+mental-health, safety, or other professional advice.
